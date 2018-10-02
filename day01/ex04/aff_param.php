@@ -2,6 +2,6 @@
 <?php
 
 array_shift($argv);
-echo implode("\n", $argv)."\n";
+echo (implode("\n", $argv)."\n");
 
 ?>
