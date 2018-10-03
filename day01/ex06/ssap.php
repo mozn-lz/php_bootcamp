@@ -1,8 +1,7 @@
 #!/usr/bin/php
 <?php
 
- array_shift($argv);
- function ft_split($str)
+function ft_split($str)
 {
     $r = explode(" ", $str);
     sort($r);
@@ -15,6 +14,7 @@
     unset($r);
     return ($ret);
 }
-    echo( implode("\n", ft_split(implode(" ", $argv))) );
 
+array_shift($argv);
+echo (implode("\n", ft_split(implode(" ", $argv))) . "\n" );
 ?>
