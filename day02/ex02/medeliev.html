@@ -1,0 +1,1209 @@
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Preiodic Table</title>
+</head>
+
+<body>
+	<style>
+		body {
+			background: url(http://bestanimations.com/Science/Chemistry/chemistry-atom-proton-electron-animation-17.gif);
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			position: relative;
+		}
+
+		.map div {
+			/* width: 200px; */
+			height: 50px;
+			text-align: center;
+			font-size: 20px;
+			display: inline-block;
+			margin-bottom: 20px; 
+		}
+
+		ul {
+			list-style: none;
+		}
+
+		.table {
+			width: 100%;
+			position: fixed;
+			margin: 0%;
+			padding: 0%;
+			border: 0px
+		}
+
+		.row {width: 100%}
+
+		.row li {
+			display: inline-block;
+			width: 4.0%;
+			min-width: 3%;
+			/* max-width: 5%; */
+		}
+
+		.element {
+			text-align: center;
+			padding: 2px;
+			width: 100%;
+			/* height: 10%; */
+			border: 1px;
+			border-style: solid;
+			border-color: black;
+			background-color: white;
+		}
+
+		.num {
+			font-size: 80%;
+			text-align: left;
+			margin: 0%;
+			padding: 0%;
+			border: 0px;
+			bottom: 0;
+		}
+
+		.weight {
+			/* width: 100%; */
+			font-size: 85%;
+			margin: 0%;
+			padding: 0%;
+			border: 0px;
+			text-align: right;
+		}
+
+		.sym {
+			font-weight: bold;
+			text-align: center;
+			margin: 0%;
+			padding: 0%;
+			border: 0px;
+			/* font-size: 30px; */
+			margin-top: 20%;
+		}
+
+		.name {
+			font-size: 85%;
+			text-align: center;
+			visibility: hidden;
+		}
+
+		.alkali_metal {
+			background-color: orange;
+		}
+
+		.alkaline_earth_met {
+			background-color: yellow
+		}
+
+		.lanthanoids {
+			background-color: darksalmon
+		}
+
+		.actionoids {
+			background-color: cornflowerblue
+		}
+
+		.transition {
+			background-color: burlywood
+		}
+
+		.post_transition {
+			background-color: aqua
+		}
+
+		.metaloid {
+			background-color: green
+		}
+
+		.other {
+			background-color: chartreuse
+		}
+
+		.noble {
+			background-color: darkorchid
+		}
+	</style>
+	<style>
+		.dropdown1 {
+			padding-top: 30px;
+		}
+
+		.dropdown2 {
+			padding-top: 30px;
+		}
+	</style>
+	<br>
+	<div class="map">
+			<div class="alkali_metal">alkali_metal</div>
+			<div class="alkaline_earth_met">alkaline_earth_met</div>
+			<div class="lanthanoids">lanthanoids</div>
+			<div class="actionoids">actionoids</div>
+			<div class="transition">transition</div>
+			<div class="post_transition">post_transition</div>
+			<div class="metaloid">metaloid</div>
+			<div class="other">other</div>
+			<div class="noble">noble</div>
+	</div>
+	<ul class="table">
+		<li class="row1">
+			<ul class="row">
+				<li>
+					<div class="element other">
+						<p contenteditable="true" class="weight">1.008</p>
+						<p contenteditable="true" class="sym">H </p>
+						<p contenteditable="true" class="name"><em>Hydrogen</em></p>
+						<p contenteditable="true" class="num">1</p>
+					</div>
+				</li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li>
+					<div class="element noble">
+						<p contenteditable="true" class="weight">4.003</p>
+						<p contenteditable="true" class="sym">He </p>
+						<p contenteditable="true" class="name"><em>Helium</em></p>
+						<p contenteditable="true" class="num">2</p>
+					</div>
+				</li>
+			</ul>
+		</li>
+		<li class="row2">
+			<ul class="row">
+				<li>
+					<div class="element alkali_metal">
+						<p contenteditable="true" class="weight">6.941</p>
+						<p contenteditable="true" class="sym">Li </p>
+						<p contenteditable="true" class="name"><em>Lithium</em></p>
+						<p contenteditable="true" class="num">3</p>
+					</div>
+				</li>
+				<li>
+					<div class="element alkaline_earth_met">
+						<p contenteditable="true" class="weight">9.012</p>
+						<p contenteditable="true" class="sym">Be </p>
+						<p contenteditable="true" class="name"><em>Beryllium</em></p>
+						<p contenteditable="true" class="num">4</p>
+					</div>
+				</li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li>
+					<div class="element metaloid">
+						<p contenteditable="true" class="weight">10.811</p>
+						<p contenteditable="true" class="sym">B </p>
+						<p contenteditable="true" class="name"><em>Boron</em></p>
+						<p contenteditable="true" class="num">5</p>
+					</div>
+				</li>
+				<li>
+					<div class="element other">
+						<p contenteditable="true" class="weight">12.011</p>
+						<p contenteditable="true" class="sym">C </p>
+						<p contenteditable="true" class="name"><em>Carbon</em></p>
+						<p contenteditable="true" class="num">6</p>
+					</div>
+				</li>
+				<li>
+					<div class="element other">
+						<p contenteditable="true" class="weight">14.007</p>
+						<p contenteditable="true" class="sym">N </p>
+						<p contenteditable="true" class="name"><em>Nitrogen</em></p>
+						<p contenteditable="true" class="num">7</p>
+					</div>
+				</li>
+				<li>
+					<div class="element other">
+						<p contenteditable="true" class="weight">15.999</p>
+						<p contenteditable="true" class="sym">O </p>
+						<p contenteditable="true" class="name"><em>Oxygen</em></p>
+						<p contenteditable="true" class="num">8</p>
+					</div>
+				</li>
+				<li>
+					<div class="element other">
+						<p contenteditable="true" class="weight">18.998</p>
+						<p contenteditable="true" class="sym">F </p>
+						<p contenteditable="true" class="name"><em>Fluorine</em></p>
+						<p contenteditable="true" class="num">9</p>
+					</div>
+				</li>
+				<li>
+					<div class="element noble">
+						<p contenteditable="true" class="weight">20.180</p>
+						<p contenteditable="true" class="sym">Ne </p>
+						<p contenteditable="true" class="name"><em>Neon</em></p>
+						<p contenteditable="true" class="num">10</p>
+					</div>
+				</li>
+			</ul>
+		</li>
+		<li class="row3">
+			<ul class="row">
+				<li>
+					<div class="element alkali_metal">
+						<p contenteditable="true" class="weight">22.990</p>
+						<p contenteditable="true" class="sym">Na </p>
+						<p contenteditable="true" class="name"><em>Sodium</em></p>
+						<p contenteditable="true" class="num">11</p>
+					</div>
+				</li>
+				<li>
+					<div class="element alkaline_earth_met">
+						<p contenteditable="true" class="weight">24.305</p>
+						<p contenteditable="true" class="sym">Mg </p>
+						<p contenteditable="true" class="name"><em>Magnesium</em></p>
+						<p contenteditable="true" class="num">12</p>
+					</div>
+				</li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li>
+					<div class="element post_transition">
+						<p contenteditable="true" class="weight">26.982</p>
+						<p contenteditable="true" class="sym">Al </p>
+						<p contenteditable="true" class="name"><em>Aluminium</em></p>
+						<p contenteditable="true" class="num">13</p>
+					</div>
+				</li>
+				<li>
+					<div class="element metaloid">
+						<p contenteditable="true" class="weight">28.086</p>
+						<p contenteditable="true" class="sym">Si </p>
+						<p contenteditable="true" class="name"><em>Silicon</em></p>
+						<p contenteditable="true" class="num">14</p>
+					</div>
+				</li>
+				<li>
+					<div class="element other">
+						<p contenteditable="true" class="weight">30.974</p>
+						<p contenteditable="true" class="sym">P </p>
+						<p contenteditable="true" class="name"><em>Phosphorus</em></p>
+						<p contenteditable="true" class="num">15</p>
+					</div>
+				</li>
+				<li>
+					<div class="element other">
+						<p contenteditable="true" class="weight">32.065</p>
+						<p contenteditable="true" class="sym">S </p>
+						<p contenteditable="true" class="name"><em>Sulfur</em></p>
+						<p contenteditable="true" class="num">16</p>
+					</div>
+				</li>
+				<li>
+					<div class="element other">
+						<p contenteditable="true" class="weight">35.453</p>
+						<p contenteditable="true" class="sym">Cl </p>
+						<p contenteditable="true" class="name"><em>Chlorine</em></p>
+						<p contenteditable="true" class="num">17</p>
+					</div>
+				</li>
+				<li>
+					<div class="element noble">
+						<p contenteditable="true" class="weight">39.948</p>
+						<p contenteditable="true" class="sym">Ar </p>
+						<p contenteditable="true" class="name"><em>Argon</em></p>
+						<p contenteditable="true" class="num">18</p>
+					</div>
+				</li>
+			</ul>
+		</li>
+		<li class="row4">
+			<ul class="row">
+				<li>
+					<div class="element alkali_metal">
+						<p contenteditable="true" class="weight">39.098</p>
+						<p contenteditable="true" class="sym">K </p>
+						<p contenteditable="true" class="name"><em>Potassium</em></p>
+						<p contenteditable="true" class="num">19</p>
+					</div>
+				</li>
+				<li>
+					<div class="element alkaline_earth_met">
+						<p contenteditable="true" class="weight">40.078</p>
+						<p contenteditable="true" class="sym">Ca </p>
+						<p contenteditable="true" class="name"><em>Calcium</em></p>
+						<p contenteditable="true" class="num">20</p>
+					</div>
+				</li>
+				<li>
+					<div class="element transition">
+						<p contenteditable="true" class="weight">44.956</p>
+						<p contenteditable="true" class="sym">Sc </p>
+						<p contenteditable="true" class="name"><em>Scandium</em></p>
+						<p contenteditable="true" class="num">21</p>
+					</div>
+				</li>
+				<li>
+					<div class="element transition">
+						<p contenteditable="true" class="weight">47.867</p>
+						<p contenteditable="true" class="sym">Ti </p>
+						<p contenteditable="true" class="name"><em>Titanium</em></p>
+						<p contenteditable="true" class="num">22</p>
+					</div>
+				</li>
+				<li>
+					<div class="element transition">
+						<p contenteditable="true" class="weight">50.942</p>
+						<p contenteditable="true" class="sym">V </p>
+						<p contenteditable="true" class="name"><em>Vanadium</em></p>
+						<p contenteditable="true" class="num">23</p>
+					</div>
+				</li>
+				<li>
+					<div class="element transition">
+						<p contenteditable="true" class="weight">51.996</p>
+						<p contenteditable="true" class="sym">Cr </p>
+						<p contenteditable="true" class="name"><em>Chromium</em></p>
+						<p contenteditable="true" class="num">24</p>
+					</div>
+				</li>
+				<li>
+					<div class="element transition">
+						<p contenteditable="true" class="weight">54.938</p>
+						<p contenteditable="true" class="sym">Mn </p>
+						<p contenteditable="true" class="name"><em>Manganese</em></p>
+						<p contenteditable="true" class="num">25</p>
+					</div>
+				</li>
+				<li>
+					<div class="element transition">
+						<p contenteditable="true" class="weight">55.845</p>
+						<p contenteditable="true" class="sym">Fe </p>
+						<p contenteditable="true" class="name"><em>Iron</em></p>
+						<p contenteditable="true" class="num">26</p>
+					</div>
+				</li>
+				<li>
+					<div class="element transition">
+						<p contenteditable="true" class="weight">58.933</p>
+						<p contenteditable="true" class="sym">Co </p>
+						<p contenteditable="true" class="name"><em>Cobalt</em></p>
+						<p contenteditable="true" class="num">27</p>
+					</div>
+				</li>
+				<li>
+					<div class="element transition">
+						<p contenteditable="true" class="weight">58.693</p>
+						<p contenteditable="true" class="sym">Ni </p>
+						<p contenteditable="true" class="name"><em>Nickel</em></p>
+						<p contenteditable="true" class="num">28</p>
+					</div>
+				</li>
+				<li>
+					<div class="element transition">
+						<p contenteditable="true" class="weight">63.546</p>
+						<p contenteditable="true" class="sym">Cu </p>
+						<p contenteditable="true" class="name"><em>Copper</em></p>
+						<p contenteditable="true" class="num">29</p>
+					</div>
+				</li>
+				<li>
+					<div class="element transition">
+						<p contenteditable="true" class="weight">65.390</p>
+						<p contenteditable="true" class="sym">Zn </p>
+						<p contenteditable="true" class="name"><em>Zinc</em></p>
+						<p contenteditable="true" class="num">30</p>
+					</div>
+				</li>
+				<li>
+					<div class="element post_transition">
+						<p contenteditable="true" class="weight">69.723</p>
+						<p contenteditable="true" class="sym">Ga </p>
+						<p contenteditable="true" class="name"><em>Gallium</em></p>
+						<p contenteditable="true" class="num">31</p>
+					</div>
+				</li>
+				<li>
+					<div class="element metaloid">
+						<p contenteditable="true" class="weight">72.640</p>
+						<p contenteditable="true" class="sym">Ge </p>
+						<p contenteditable="true" class="name"><em>Germanium</em></p>
+						<p contenteditable="true" class="num">32</p>
+					</div>
+				</li>
+				<li>
+					<div class="element metaloid">
+						<p contenteditable="true" class="weight">74.922</p>
+						<p contenteditable="true" class="sym">As </p>
+						<p contenteditable="true" class="name"><em>Arsenic</em></p>
+						<p contenteditable="true" class="num">33</p>
+					</div>
+				</li>
+				<li>
+					<div class="element other">
+						<p contenteditable="true" class="weight">78.960</p>
+						<p contenteditable="true" class="sym">Se </p>
+						<p contenteditable="true" class="name"><em>Selenium</em></p>
+						<p contenteditable="true" class="num">34</p>
+					</div>
+				</li>
+				<li>
+					<div class="element other">
+						<p contenteditable="true" class="weight">79.904</p>
+						<p contenteditable="true" class="sym">Br </p>
+						<p contenteditable="true" class="name"><em>Bromine</em></p>
+						<p contenteditable="true" class="num">35</p>
+					</div>
+				</li>
+				<li>
+					<div class="element noble">
+						<p contenteditable="true" class="weight">83.800</p>
+						<p contenteditable="true" class="sym">Kr </p>
+						<p contenteditable="true" class="name"><em>Krypton</em></p>
+						<p contenteditable="true" class="num">36</p>
+					</div>
+				</li>
+			</ul>
+		</li>
+		<li class="row5">
+			<ul class="row">
+				<li>
+					<div class="element alkali_metal">
+						<p contenteditable="true" class="weight">85.468</p>
+						<p contenteditable="true" class="sym">Rb </p>
+						<p contenteditable="true" class="name"><em>Rubidium</em></p>
+						<p contenteditable="true" class="num">37</p>
+					</div>
+				</li>
+				<li>
+					<div class="element alkaline_earth_met">
+						<p contenteditable="true" class="weight">87.620</p>
+						<p contenteditable="true" class="sym">Sr </p>
+						<p contenteditable="true" class="name"><em>Strontium</em></p>
+						<p contenteditable="true" class="num">38</p>
+					</div>
+				</li>
+				<li>
+					<div class="element transition">
+						<p contenteditable="true" class="weight">88.906</p>
+						<p contenteditable="true" class="sym">Y </p>
+						<p contenteditable="true" class="name"><em>Yttrium</em></p>
+						<p contenteditable="true" class="num">39</p>
+					</div>
+				</li>
+				<li>
+					<div class="element transition">
+						<p contenteditable="true" class="weight">91.224</p>
+						<p contenteditable="true" class="sym">Zr </p>
+						<p contenteditable="true" class="name"><em>Zirconium</em></p>
+						<p contenteditable="true" class="num">40</p>
+					</div>
+				</li>
+				<li>
+					<div class="element transition">
+						<p contenteditable="true" class="weight">92.906</p>
+						<p contenteditable="true" class="sym">Nb </p>
+						<p contenteditable="true" class="name"><em>Niobium</em></p>
+						<p contenteditable="true" class="num">41</p>
+					</div>
+				</li>
+				<li>
+					<div class="element transition">
+						<p contenteditable="true" class="weight">95.940</p>
+						<p contenteditable="true" class="sym">Mo </p>
+						<p contenteditable="true" class="name"><em></em></p>
+						<!--						<p contenteditable="true" class="name"><em>Molybdenum</em></p>-->
+						<p contenteditable="true" class="num">42</p>
+					</div>
+				</li>
+				<li>
+					<div class="element transition">
+						<p contenteditable="true" class="weight">98.000</p>
+						<p contenteditable="true" class="sym">Tc </p>
+						<p contenteditable="true" class="name"><em>Technetium</em></p>
+						<p contenteditable="true" class="num">43</p>
+					</div>
+				</li>
+				<li>
+					<div class="element transition">
+						<p contenteditable="true" class="weight">101.070</p>
+						<p contenteditable="true" class="sym">Ru </p>
+						<p contenteditable="true" class="name"><em>Ruthenium</em></p>
+						<p contenteditable="true" class="num">44</p>
+					</div>
+				</li>
+				<li>
+					<div class="element transition">
+						<p contenteditable="true" class="weight">102.906</p>
+						<p contenteditable="true" class="sym">Rh </p>
+						<p contenteditable="true" class="name"><em>Rhodium</em></p>
+						<p contenteditable="true" class="num">45</p>
+					</div>
+				</li>
+				<li>
+					<div class="element transition">
+						<p contenteditable="true" class="weight">106.420</p>
+						<p contenteditable="true" class="sym">Pd </p>
+						<p contenteditable="true" class="name"><em>Palladium</em></p>
+						<p contenteditable="true" class="num">46</p>
+					</div>
+				</li>
+				<li>
+					<div class="element transition">
+						<p contenteditable="true" class="weight">107.868</p>
+						<p contenteditable="true" class="sym">Ag </p>
+						<p contenteditable="true" class="name"><em>Silver</em></p>
+						<p contenteditable="true" class="num">47</p>
+					</div>
+				</li>
+				<li>
+					<div class="element transition">
+						<p contenteditable="true" class="weight">112.411</p>
+						<p contenteditable="true" class="sym">Cd </p>
+						<p contenteditable="true" class="name"><em>Cadmium</em></p>
+						<p contenteditable="true" class="num">48</p>
+					</div>
+				</li>
+				<li>
+					<div class="element post_transition">
+						<p contenteditable="true" class="weight">114.818</p>
+						<p contenteditable="true" class="sym">In </p>
+						<p contenteditable="true" class="name"><em>Indium</em></p>
+						<p contenteditable="true" class="num">49</p>
+					</div>
+				</li>
+				<li>
+					<div class="element post_transition">
+						<p contenteditable="true" class="weight">118.710</p>
+						<p contenteditable="true" class="sym">Sn </p>
+						<p contenteditable="true" class="name"><em>Tin</em></p>
+						<p contenteditable="true" class="num">50</p>
+					</div>
+				</li>
+				<li>
+					<div class="element metaloid">
+						<p contenteditable="true" class="weight">121.760</p>
+						<p contenteditable="true" class="sym">Sb </p>
+						<p contenteditable="true" class="name"><em>Antimony</em></p>
+						<p contenteditable="true" class="num">51</p>
+					</div>
+				</li>
+				<li>
+					<div class="element metaloid">
+						<p contenteditable="true" class="weight">127.600</p>
+						<p contenteditable="true" class="sym">Te </p>
+						<p contenteditable="true" class="name"><em>Tellurium</em></p>
+						<p contenteditable="true" class="num">52</p>
+					</div>
+				</li>
+				<li>
+					<div class="element other">
+						<p contenteditable="true" class="weight">126.905</p>
+						<p contenteditable="true" class="sym">I </p>
+						<p contenteditable="true" class="name"><em>Iodine</em></p>
+						<p contenteditable="true" class="num">53</p>
+					</div>
+				</li>
+				<li>
+					<div class="element noble">
+						<p contenteditable="true" class="weight">131.293</p>
+						<p contenteditable="true" class="sym">Xe </p>
+						<p contenteditable="true" class="name"><em>Xenon</em></p>
+						<p contenteditable="true" class="num">54</p>
+					</div>
+				</li>
+			</ul>
+		</li>
+		<li class="row6">
+			<ul class="row">
+				<li>
+					<div class="element alkali_metal">
+						<p contenteditable="true" class="weight">132.906</p>
+						<p contenteditable="true" class="sym">Cs </p>
+						<p contenteditable="true" class="name"><em>Cesium</em></p>
+						<p contenteditable="true" class="num">55</p>
+					</div>
+				</li>
+				<li>
+					<div class="element alkaline_earth_met">
+						<p contenteditable="true" class="weight">137.327</p>
+						<p contenteditable="true" class="sym">Ba </p>
+						<p contenteditable="true" class="name"><em>Barium</em></p>
+						<p contenteditable="true" class="num">56</p>
+					</div>
+				</li>
+				<li>
+					<div class="element lanthanoids cue1">
+						<p contenteditable="true" class="num"></p>
+						<p contenteditable="true" class="sym">57-71</p>
+						<p contenteditable="true" class="name"><em></em></p>
+						<p contenteditable="true" class="weight"></p>
+					</div>
+				</li>
+				<li>
+					<div class="element transition">
+						<p contenteditable="true" class="weight">178.490</p>
+						<p contenteditable="true" class="sym">Hf </p>
+						<p contenteditable="true" class="name"><em>Hafnium</em></p>
+						<p contenteditable="true" class="num">72</p>
+					</div>
+				</li>
+				<li>
+					<div class="element transition">
+						<p contenteditable="true" class="weight">180.948</p>
+						<p contenteditable="true" class="sym">Ta </p>
+						<p contenteditable="true" class="name"><em>Tantalum</em></p>
+						<p contenteditable="true" class="num">73</p>
+					</div>
+				</li>
+				<li>
+					<div class="element transition">
+						<p contenteditable="true" class="weight">183.840</p>
+						<p contenteditable="true" class="sym">W </p>
+						<p contenteditable="true" class="name"><em>Tungsten</em></p>
+						<p contenteditable="true" class="num">74</p>
+					</div>
+				</li>
+				<li>
+					<div class="element transition">
+						<p contenteditable="true" class="weight">186.207</p>
+						<p contenteditable="true" class="sym">Re </p>
+						<p contenteditable="true" class="name"><em>Rhenium</em></p>
+						<p contenteditable="true" class="num">75</p>
+					</div>
+				</li>
+				<li>
+					<div class="element transition">
+						<p contenteditable="true" class="weight">190.230</p>
+						<p contenteditable="true" class="sym">Os </p>
+						<p contenteditable="true" class="name"><em>Osmium</em></p>
+						<p contenteditable="true" class="num">76</p>
+					</div>
+				</li>
+				<li>
+					<div class="element transition">
+						<p contenteditable="true" class="weight">192.217</p>
+						<p contenteditable="true" class="sym">Ir </p>
+						<p contenteditable="true" class="name"><em>Iridium</em></p>
+						<p contenteditable="true" class="num">77</p>
+					</div>
+				</li>
+				<li>
+					<div class="element transition">
+						<p contenteditable="true" class="weight">195.078</p>
+						<p contenteditable="true" class="sym">Pt </p>
+						<p contenteditable="true" class="name"><em>Platinum</em></p>
+						<p contenteditable="true" class="num">78</p>
+					</div>
+				</li>
+				<li>
+					<div class="element transition">
+						<p contenteditable="true" class="weight">196.967</p>
+						<p contenteditable="true" class="sym">Au </p>
+						<p contenteditable="true" class="name"><em>Gold</em></p>
+						<p contenteditable="true" class="num">79</p>
+					</div>
+				</li>
+				<li>
+					<div class="element transition">
+						<p contenteditable="true" class="weight">200.590</p>
+						<p contenteditable="true" class="sym">Hg </p>
+						<p contenteditable="true" class="name"><em>Mercury</em></p>
+						<p contenteditable="true" class="num">80</p>
+					</div>
+				</li>
+				<li>
+					<div class="element post_transition">
+						<p contenteditable="true" class="weight">204.383</p>
+						<p contenteditable="true" class="sym">Tl </p>
+						<p contenteditable="true" class="name"><em>Thallium</em></p>
+						<p contenteditable="true" class="num">81</p>
+					</div>
+				</li>
+				<li>
+					<div class="element post_transition">
+						<p contenteditable="true" class="weight">207.200</p>
+						<p contenteditable="true" class="sym">Pb </p>
+						<p contenteditable="true" class="name"><em>Lead</em></p>
+						<p contenteditable="true" class="num">82</p>
+					</div>
+				</li>
+				<li>
+					<div class="element post_transition">
+						<p contenteditable="true" class="weight">208.980</p>
+						<p contenteditable="true" class="sym">Bi </p>
+						<p contenteditable="true" class="name"><em>Bismuth</em></p>
+						<p contenteditable="true" class="num">83</p>
+					</div>
+				</li>
+				<li>
+					<div class="element post_transition">
+						<p contenteditable="true" class="weight">209.000</p>
+						<p contenteditable="true" class="sym">Po </p>
+						<p contenteditable="true" class="name"><em>Polonium</em></p>
+						<p contenteditable="true" class="num">84</p>
+					</div>
+				</li>
+				<li>
+					<div class="element metaloid">
+						<p contenteditable="true" class="weight">210.000</p>
+						<p contenteditable="true" class="sym">At </p>
+						<p contenteditable="true" class="name"><em>Astatine</em></p>
+						<p contenteditable="true" class="num">85</p>
+					</div>
+				</li>
+				<li>
+					<div class="element noble">
+						<p contenteditable="true" class="weight">222.000</p>
+						<p contenteditable="true" class="sym">Rn </p>
+						<p contenteditable="true" class="name"><em>Radon</em></p>
+						<p contenteditable="true" class="num">86</p>
+					</div>
+				</li>
+			</ul>
+		</li>
+		<li class="row7">
+			<ul class="row">
+				<li>
+					<div class="element alkali_metal">
+						<p contenteditable="true" class="weight">223.000</p>
+						<p contenteditable="true" class="sym">Fr </p>
+						<p contenteditable="true" class="name"><em>Francium</em></p>
+						<p contenteditable="true" class="num">87</p>
+					</div>
+				</li>
+				<li>
+					<div class="element alkaline_earth_met">
+						<p contenteditable="true" class="weight">226.000</p>
+						<p contenteditable="true" class="sym">Ra </p>
+						<p contenteditable="true" class="name"><em>Radium</em></p>
+						<p contenteditable="true" class="num">88</p>
+					</div>
+				</li>
+				<li>
+					<div class="element actionoids  cue2">
+						<p contenteditable="true" class="num"></p>
+						<p contenteditable="true" class="sym">89-103</p>
+						<p contenteditable="true" class="name"></p>
+						<p contenteditable="true" class="weight"></p>
+					</div>
+				</li>
+				<li>
+					<div class="element transition">
+						<!--						<p contenteditable="true" class="name"><em>Rutherfordium</em></p>-->
+						<p contenteditable="true" class="weight">261.000</p>
+						<p contenteditable="true" class="sym">Rf </p>
+						<p contenteditable="true" class="name"><em></em></p>
+						<p contenteditable="true" class="num">104</p>
+					</div>
+				</li>
+				<li>
+					<div class="element transition">
+						<p contenteditable="true" class="weight">262.000</p>
+						<p contenteditable="true" class="sym">Db </p>
+						<p contenteditable="true" class="name"><em>Dubnium</em></p>
+						<p contenteditable="true" class="num">105</p>
+					</div>
+				</li>
+				<li>
+					<div class="element transition">
+						<p contenteditable="true" class="weight">266.000</p>
+						<p contenteditable="true" class="sym">Sg </p>
+						<p contenteditable="true" class="name"><em>Seaborgium</em></p>
+						<p contenteditable="true" class="num">106</p>
+					</div>
+				</li>
+				<li>
+					<div class="element transition">
+						<p contenteditable="true" class="weight">264.000</p>
+						<p contenteditable="true" class="sym">Bh </p>
+						<p contenteditable="true" class="name"><em>Bohrium</em></p>
+						<p contenteditable="true" class="num">107</p>
+					</div>
+				</li>
+				<li>
+					<div class="element transition">
+						<p contenteditable="true" class="weight">277.000</p>
+						<p contenteditable="true" class="sym">Hs </p>
+						<p contenteditable="true" class="name"><em>Hassium</em></p>
+						<p contenteditable="true" class="num">108</p>
+					</div>
+				</li>
+				<li>
+					<div class="element ">
+						<p contenteditable="true" class="weight">268.000</p>
+						<p contenteditable="true" class="sym">Mt </p>
+						<p contenteditable="true" class="name"><em>Meitnerium</em></p>
+						<p contenteditable="true" class="num">109</p>
+					</div>
+				</li>
+				<li>
+					<div class="element ">
+						<!--						<p contenteditable="true" class="name"><em>Darmstadtium</em></p>-->
+						<p contenteditable="true" class="weight">(281)</p>
+						<p contenteditable="true" class="sym">Ds </p>
+						<p contenteditable="true" class="name"><em></em></p>
+						<p contenteditable="true" class="num">110</p>
+					</div>
+				</li>
+				<li>
+					<div class="element ">
+						<!--						<p contenteditable="true" class="name"><em>Roentgenium</em></p>-->
+						<p contenteditable="true" class="weight">(282)</p>
+						<p contenteditable="true" class="sym">Rg </p>
+						<p contenteditable="true" class="name"><em></em></p>
+						<p contenteditable="true" class="num">111</p>
+					</div>
+				</li>
+				<li>
+					<div class="element transition">
+						<!--						<p contenteditable="true" class="name"><em>Copernicium</em></p>-->
+						<p contenteditable="true" class="weight">(285)</p>
+						<p contenteditable="true" class="sym"> Cn</p>
+						<p contenteditable="true" class="name"><em></em></p>
+						<p contenteditable="true" class="num">112</p>
+					</div>
+				</li>
+				<li>
+					<div class="element ">
+						<p contenteditable="true" class="weight">(286)</p>
+						<p contenteditable="true" class="sym"> Nh </p>
+						<p contenteditable="true" class="name"><em>Nihonium</em></p>
+						<p contenteditable="true" class="num">113</p>
+					</div>
+				</li>
+				<li>
+					<div class="element post_transition">
+						<p contenteditable="true" class="weight">(289</p>
+						<p contenteditable="true" class="sym">Fl </p>
+						<p contenteditable="true" class="name"><em>Flerovium</em></p>
+						<p contenteditable="true" class="num">114</p>
+					</div>
+				</li>
+				<li>
+					<div class="element ">
+						<p contenteditable="true" class="weight">(290)</p>
+						<p contenteditable="true" class="sym">Mc </p>
+						<p contenteditable="true" class="name"><em>Moscovium</em></p>
+						<p contenteditable="true" class="num">115</p>
+					</div>
+				</li>
+				<li>
+					<div class="element ">
+						<!--						<p contenteditable="true" class="name"><em>Livermorium</em></p>-->
+						<p contenteditable="true" class="weight">(293)</p>
+						<p contenteditable="true" class="sym">Lv </p>
+						<p contenteditable="true" class="name"><em></em></p>
+						<p contenteditable="true" class="num">116</p>
+					</div>
+				</li>
+				<li>
+					<div class="element ">
+						<p contenteditable="true" class="weight">(294)</p>
+						<p contenteditable="true" class="sym">Ts </p>
+						<p contenteditable="true" class="name"><em>Tennessine</em></p>
+						<p contenteditable="true" class="num">117</p>
+					</div>
+				</li>
+				<li>
+					<div class="element ">
+						<p contenteditable="true" class="weight">(294)</p>
+						<p contenteditable="true" class="sym">Og </p>
+						<p contenteditable="true" class="name"><em>Oganesson</em></p>
+						<p contenteditable="true" class="num">118</p>
+					</div>
+				</li>
+			</ul>
+		</li>
+		<li></li>
+		<br>
+		<li>
+			<ul class="row">
+				<li>
+					<div class="element lanthanoids">
+						<p contenteditable="true" class="weight">138.906</p>
+						<p contenteditable="true" class="sym">La </p>
+						<p contenteditable="true" class="name"><em>Lanthanum</em></p>
+						<p contenteditable="true" class="num">57</p>
+					</div>
+				</li>
+				<li>
+					<div class="element lanthanoids">
+						<p contenteditable="true" class="weight">140.116</p>
+						<p contenteditable="true" class="sym">Ce </p>
+						<p contenteditable="true" class="name"><em>Cerium</em></p>
+						<p contenteditable="true" class="num">58</p>
+					</div>
+				</li>
+				<li>
+					<div class="element lanthanoids">
+						<p contenteditable="true" class="weight">140.908</p>
+						<p contenteditable="true" class="sym">Pr </p>
+						<p contenteditable="true" class="name"><em></em></p>
+						<!-- <p contenteditable="true" class="name"><em>Praseodymium</em></p> -->
+						<p contenteditable="true" class="num">59</p>
+					</div>
+				</li>
+				<li>
+					<div class="element lanthanoids">
+						<p contenteditable="true" class="weight">144.240</p>
+						<p contenteditable="true" class="sym">Nd </p>
+						<p contenteditable="true" class="name"><em>Neodymium</em></p>
+						<p contenteditable="true" class="num">60</p>
+					</div>
+				</li>
+				<li>
+					<div class="element lanthanoids">
+						<p contenteditable="true" class="weight">145.000</p>
+						<p contenteditable="true" class="sym">Pm </p>
+						<p contenteditable="true" class="name"><em>Promethium</em></p>
+						<p contenteditable="true" class="num">61</p>
+					</div>
+				</li>
+				<li>
+					<div class="element lanthanoids">
+						<p contenteditable="true" class="weight">150.360</p>
+						<p contenteditable="true" class="sym">Sm </p>
+						<p contenteditable="true" class="name"><em>Samarium</em></p>
+						<p contenteditable="true" class="num">62</p>
+					</div>
+				</li>
+				<li>
+					<div class="element lanthanoids">
+						<p contenteditable="true" class="weight">151.964</p>
+						<p contenteditable="true" class="sym">Eu </p>
+						<p contenteditable="true" class="name"><em>Europium</em></p>
+						<p contenteditable="true" class="num">63</p>
+					</div>
+				</li>
+				<li>
+					<div class="element lanthanoids">
+						<p contenteditable="true" class="weight">157.250</p>
+						<p contenteditable="true" class="sym">Gd </p>
+						<p contenteditable="true" class="name"><em>Gadolinium</em></p>
+						<p contenteditable="true" class="num">64</p>
+					</div>
+				</li>
+				<li>
+					<div class="element lanthanoids">
+						<p contenteditable="true" class="weight">158.925</p>
+						<p contenteditable="true" class="sym">Tb </p>
+						<p contenteditable="true" class="name"><em>Terbium</em></p>
+						<p contenteditable="true" class="num">65</p>
+					</div>
+				</li>
+				<li>
+					<div class="element lanthanoids">
+						<p contenteditable="true" class="weight">162.500</p>
+						<p contenteditable="true" class="sym">Dy </p>
+						<p contenteditable="true" class="name"><em>Dysprosium</em></p>
+						<p contenteditable="true" class="num">66</p>
+					</div>
+				</li>
+				<li>
+					<div class="element lanthanoids">
+						<p contenteditable="true" class="weight">164.930</p>
+						<p contenteditable="true" class="sym">Ho </p>
+						<p contenteditable="true" class="name"><em>Holmium</em></p>
+						<p contenteditable="true" class="num">67</p>
+					</div>
+				</li>
+				<li>
+					<div class="element lanthanoids">
+						<p contenteditable="true" class="weight">167.259</p>
+						<p contenteditable="true" class="sym">Er </p>
+						<p contenteditable="true" class="name"><em>Erbium</em></p>
+						<p contenteditable="true" class="num">68</p>
+					</div>
+				</li>
+				<li>
+					<div class="element lanthanoids">
+						<p contenteditable="true" class="weight">168.934</p>
+						<p contenteditable="true" class="sym">Tm </p>
+						<p contenteditable="true" class="name"><em>Thulium</em></p>
+						<p contenteditable="true" class="num">69</p>
+					</div>
+				</li>
+				<li>
+					<div class="element lanthanoids">
+						<p contenteditable="true" class="weight">173.040</p>
+						<p contenteditable="true" class="sym">Yb </p>
+						<p contenteditable="true" class="name"><em>Ytterbium</em></p>
+						<p contenteditable="true" class="num">70</p>
+					</div>
+				</li>
+				<li>
+					<div class="element lanthanoids">
+						<p contenteditable="true" class="weight">174.967</p>
+						<p contenteditable="true" class="sym">Lu </p>
+						<p contenteditable="true" class="name"><em>Lutetium</em></p>
+						<p contenteditable="true" class="num">71</p>
+					</div>
+				</li>
+			</ul>
+		</li>
+		<li>
+			<ul class="row">
+				<li>
+					<div class="element actionoids">
+						<p contenteditable="true" class="weight">227.000</p>
+						<p contenteditable="true" class="sym">Ac </p>
+						<p contenteditable="true" class="name"><em>Actinium</em></p>
+						<p contenteditable="true" class="num">89</p>
+					</div>
+				</li>
+				<li>
+					<div class="element actionoids">
+						<p contenteditable="true" class="weight">232.038</p>
+						<p contenteditable="true" class="sym">Th </p>
+						<p contenteditable="true" class="name"><em>Thorium</em></p>
+						<p contenteditable="true" class="num">90</p>
+					</div>
+				</li>
+				<li>
+					<div class="element actionoids">
+						<p contenteditable="true" class="weight">231.036</p>
+						<p contenteditable="true" class="sym">Pa </p>
+						<p contenteditable="true" class="name"><em></em></p>
+						<!-- <p contenteditable="true" class="name"><em>Protactinium</em></p> -->
+						<p contenteditable="true" class="num">91</p>
+					</div>
+				</li>
+				<li>
+					<div class="element actionoids">
+						<p contenteditable="true" class="weight">238.029</p>
+						<p contenteditable="true" class="sym">U </p>
+						<p contenteditable="true" class="name"><em>Uranium</em></p>
+						<p contenteditable="true" class="num">92</p>
+					</div>
+				</li>
+				<li>
+					<div class="element actionoids">
+						<p contenteditable="true" class="weight">237.000</p>
+						<p contenteditable="true" class="sym">Np </p>
+						<p contenteditable="true" class="name"><em>Neptunium</em></p>
+						<p contenteditable="true" class="num">93</p>
+					</div>
+				</li>
+				<li>
+					<div class="element actionoids">
+						<p contenteditable="true" class="weight">244.000</p>
+						<p contenteditable="true" class="sym">Pu </p>
+						<p contenteditable="true" class="name"><em>Plutonium</em></p>
+						<p contenteditable="true" class="num">94</p>
+					</div>
+				</li>
+				<li>
+					<div class="element actionoids">
+						<p contenteditable="true" class="weight">243.000</p>
+						<p contenteditable="true" class="sym">Am </p>
+						<p contenteditable="true" class="name"><em>Americium</em></p>
+						<p contenteditable="true" class="num">95</p>
+					</div>
+				</li>
+				<li>
+					<div class="element actionoids">
+						<p contenteditable="true" class="weight">247.000</p>
+						<p contenteditable="true" class="sym">Cm </p>
+						<p contenteditable="true" class="name"><em>Curium</em></p>
+						<p contenteditable="true" class="num">96</p>
+					</div>
+				</li>
+				<li>
+					<div class="element actionoids">
+						<p contenteditable="true" class="weight">247.000</p>
+						<p contenteditable="true" class="sym">Bk </p>
+						<p contenteditable="true" class="name"><em>Berkelium</em></p>
+						<p contenteditable="true" class="num">97</p>
+					</div>
+				</li>
+				<li>
+					<div class="element actionoids">
+						<p contenteditable="true" class="weight">251.000</p>
+						<p contenteditable="true" class="sym">Cf </p>
+						<p contenteditable="true" class="name"><em>Californium</em></p>
+						<p contenteditable="true" class="num">98</p>
+					</div>
+				</li>
+				<li>
+					<div class="element actionoids">
+						<p contenteditable="true" class="weight">252.000</p>
+						<p contenteditable="true" class="sym">Es </p>
+						<p contenteditable="true" class="name"><em>Einsteinium</em></p>
+						<p contenteditable="true" class="num">99</p>
+					</div>
+				</li>
+				<li>
+					<div class="element actionoids">
+						<p contenteditable="true" class="weight">257.000</p>
+						<p contenteditable="true" class="sym">Fm </p>
+						<p contenteditable="true" class="name"><em>Fermium</em></p>
+						<p contenteditable="true" class="num">100</p>
+					</div>
+				</li>
+				<li>
+					<div class="element actionoids">
+						<p contenteditable="true" class="weight">258.000</p>
+						<p contenteditable="true" class="sym">Md </p>
+						<p contenteditable="true" class="name"><em></em></p>
+						<!-- <p contenteditable="true" class="name"><em>Mendelevium</em></p> -->
+						<p contenteditable="true" class="num">101</p>
+					</div>
+				</li>
+				<li>
+					<div class="element actionoids">
+						<p contenteditable="true" class="weight">259.000</p>
+						<p contenteditable="true" class="sym">No </p>
+						<p contenteditable="true" class="name"><em>Nobelium</em></p>
+						<p contenteditable="true" class="num">102</p>
+					</div>
+				</li>
+				<li>
+					<div class="element actionoids">
+						<p contenteditable="true" class="weight">262.000</p>
+						<p contenteditable="true" class="sym">Lr </p>
+						<p contenteditable="true" class="name"><em>Lawrencium</em></p>
+						<p contenteditable="true" class="num">103</p>
+					</div>
+				</li>
+			</ul>
+		</li>
+	</ul>
+
+	<div>
+		<div class="dropdown1">
+		</div>
+
+		<div class="dropdown2">
+		</div>
+	</div>
+</body>
+<!-- https://scientificgems.wordpress.com/tag/periodic-table/
+https://ptable.com/ -->
+
+</html>
