@@ -20,10 +20,12 @@
     //     $str = $str . " " . $argv[$i];
     //     $i++;
     // }
-    $argv = ft_split(implode(" ", $argv));
-    $last = array_shift($argv);
+    // $argv = ;
+    $last = array_shift(ft_split($argv[0]));
+    print_r (ft_split($argv[0]));
+    echo"\n";
     // $last = array_shift(ft_split($str));
     // echo( $arr . "\n" );
-    echo( implode(" ", $argv) . " " . $last . "\n" );
+  echo( $argv[0] . " |  " . $last . "\n" );
 
 ?>
